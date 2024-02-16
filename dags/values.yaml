@@ -2,12 +2,12 @@ fernetKey: MDlCMUtMWEh0bmJBVUFGUW1kOGpUQ2gwbU5vTEVRNDA=
 webserverSecretKey: MDlCMUtMWEh0bmJBVUFGUW1kOGpUQ2gwbU5vTEVRNDA=
 executor: "KubernetesExecutor"
 
-# dags:
-#   gitSync:
-#     enabled: true
-#     repo: https://github.com/airscholar/Kubernetes-For-DataEngineering.git
-#     branch: main
-#     rev: HEAD
-#     depth: 1
-#     maxFailures: 0
-#     subPath: "dags"
+dags:
+  gitSync:
+    enabled: true
+    repo: https://github.com/it5meyash/Kubernetes-Airflow-end-to-end-project.git
+    branch: master
+    rev: HEAD
+    depth: 1
+    maxFailures: 0
+    subPath: "dags"
